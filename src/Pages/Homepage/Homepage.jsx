@@ -45,7 +45,7 @@ const Homepage = () => {
         </div>
         <div className="container team">
           <p className="font-24">
-            I'm currently looking to join a{" "}
+            I'm currently looking to join a
             <span className="bookmark">cross-functional</span> team <br />
             <span className="font-18">
               that values improving people's lives through accessible design
@@ -73,7 +73,9 @@ const Homepage = () => {
           </div>
         </div>
         <p>Contact</p>
-        <div className="container contact"></div>
+        <div className="container contact">
+          Call 
+        </div>
       </div>
     </div>
   );
