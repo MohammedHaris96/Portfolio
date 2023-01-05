@@ -75,21 +75,14 @@ const Homepage = () => {
           </div>
         </div>
         <p>Contact</p>
-        <div className="container contact">
-          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 border-top">
+
+        <div className="contact">
+          <div className="py-3 col-12 col-md-6">
             <p>&copy; 2023 Mohammed Haris</p>
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-              <li class="business-links">
-                <a class="text-muted" href="#">
-                  <img src={whatsapp} alt="whatsapp" />
-                </a>
-              </li>
-              <li class=" business-links">
-                <a class="text-muted" href="#">
-                  <img src={gmail} alt="gmail" />
-                </a>
-              </li>
-            </ul>
+          </div>
+          <div className="py-3 col-12 col-md-6 social-links">
+            <img src={whatsapp} alt="whatsapp" className="links" />
+            <img src={gmail} alt="gmail" className="links" />
           </div>
         </div>
       </div>

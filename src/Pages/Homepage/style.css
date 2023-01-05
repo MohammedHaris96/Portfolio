@@ -89,9 +89,16 @@
 }
 .contact {
   border-top: 1px solid #ffffff;
+  display: flex;
+  padding: 0px;
 }
-.business-links img {
+.links {
   height: 30px;
+  margin: 0px 5px 0px 5px;
+}
+.social-links {
+  display: flex;
+  justify-content: flex-end;
 }
 @media only screen and (max-width: 600px) {
   .presentation {
