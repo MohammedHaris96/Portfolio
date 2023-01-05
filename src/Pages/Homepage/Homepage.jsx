@@ -2,6 +2,8 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import me from "../../assets/Me.png";
 import arrow from "../../assets/arrow.svg";
+import whatsapp from "../../assets/WhatsApp.svg";
+import gmail from "../../assets/Gmail.svg";
 import skills from "../../assets/Skills.png";
 import preview from "../../assets/preview.png";
 import "./style.css";
@@ -46,7 +48,7 @@ const Homepage = () => {
         <div className="container team">
           <p className="font-24">
             I'm currently looking to join a
-            <span className="bookmark">cross-functional</span> team <br />
+            <span className="bookmark"> cross-functional</span> team <br />
             <span className="font-18">
               that values improving people's lives through accessible design
             </span>
@@ -74,7 +76,21 @@ const Homepage = () => {
         </div>
         <p>Contact</p>
         <div className="container contact">
-          Call 
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 border-top">
+            <p>&copy; 2023 Mohammed Haris</p>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="business-links">
+                <a class="text-muted" href="#">
+                  <img src={whatsapp} alt="whatsapp" />
+                </a>
+              </li>
+              <li class=" business-links">
+                <a class="text-muted" href="#">
+                  <img src={gmail} alt="gmail" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
