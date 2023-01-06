@@ -10,10 +10,10 @@ const Header = () => {
       {["sm"].map((expand) => (
         <Navbar
           key={expand}
-          bg="light"
+          // bg="light"
           expand={expand}
           sticky="top"
-          className="mb-3"
+          // className="my-3"
         >
           <Container>
             <Navbar.Brand href="#">Portfolio</Navbar.Brand>
