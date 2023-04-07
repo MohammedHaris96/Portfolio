@@ -78,7 +78,7 @@ const Homepage = () => {
 
         <div className="contact">
           <div className="py-3 col-12 col-md-6">
-            <p>&copy; 2023 Mohammed Haris</p>
+            <p>&copy; 2023 Mohammed Haris.......</p>
           </div>
           <div className="py-3 col-12 col-md-6 social-links">
             <img src={whatsapp} alt="whatsapp" className="links" />
